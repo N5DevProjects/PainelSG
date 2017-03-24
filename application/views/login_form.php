@@ -1,6 +1,6 @@
 <html>
 <?php   if (isset($this->session->userdata['logged_in'])) {
-    header("location: http://localhost/Jabes/index.php/user_authentication/user_login_process");
+    header("location: http://localhost/PainelSG/index.php/user_authentication/user_login_process");
 }
 ?>
 <head>
@@ -47,7 +47,7 @@
             echo "</div>";
         ?>
   <div class="login-logo">
-  Jabes Web
+  Serviços Gerenciados
   </div>
   <div class="login-box-body">
     <p class="login-box-msg">Digite suas credenciais para iniciar a sessão</p>
